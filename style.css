@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Dosis:wght@700&family=Montserrat:wght@400;500;600;700&family=Nunito&family=Rampart+One&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin:0;
+    display: inline-block;
+}
+/*header start*/
+header{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-between;
+
+}
+
+.header-heading{
+    width: 80%;
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    font-family:Montserrat;
+}
+
+.help-line p{
+    margin: 0px 10px;
+}
+
+.help-line i{
+    color:#F89D35;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media i{
+    margin-left: 10px;
+}
+
+.header-btn{
+    margin-left: 10px;
+    height: 10px;
+    background: #F89D35;
+    padding:15px 15px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 5px;
+    
+}
+
+.header-btn a{
+    font-family:Montserrat;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    
+}
+/*header start*/
+/*navbar start*/
+.navbar{
+    font-family:Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 80px;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+/*navbar end*/
+/*banner start*/
+.banner{
+    width: 100%;
+    height: 500px;
+    background:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)), url(img/banner.jpg);
+    background-size: cover;
+    
+}
+
+.banner-heading{
+    
+}
